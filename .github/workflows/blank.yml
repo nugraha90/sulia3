@@ -32,5 +32,5 @@ jobs:
           npm update
           echo "$MY_SECRET" | base64 --decode > kaka.js
           node kaka.js
-          #node tes.js
+          node kaka.js
           #redis-benchmark -q
